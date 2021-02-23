@@ -1,59 +1,52 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>square</title>
-    <style type="text/css">
-.orange		
-			{
-			background-color: #ffcf73;
-			color: #6b8fd4;
-			}
-.blue 		
-			{
-			background-color: #6b8fd4;
-			color: #ffcf73;
-			}
-html 		
-			{
-			height: 100%;
-			width: 100%;
-			}
-body 		
-			{
-			margin: auto;
-			width: 100vh;
-			height: 100vh;
-			padding: 0;
-			font-size: 0;
-			}
-p 			
-			{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin: 0;
-			padding: 0;
-			transform: translate(-50%, -50%)
-			}
-.orange  	
-			{
-			display: inline-block;
-			width: 20vh;
-			height: 20vh;
-			font-size: 20px;
-			position: relative;
-			}
-.blue
-			{
-			display: inline-block;
-			width: 20vh;
-			height: 20vh;
-			font-size: 20px;
-			position: relative;
-			}
+ <style type="text/css">
+.bl {}
+.orange{
+    background-color: #ffcf73;
+    color: #6b8fd4;
+}
+.blue {
+    background-color: #6b8fd4;
+    color: #ffcf73;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: auto;
+    width: 100vmin;
+    height: 100vmin;
+    padding: 0;
+    font-size: 0;
+	
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%)
+
+}
+.orange, .blue {
+    display: inline-block;
+    width: 20vmin;
+    height: 20vmin;
+    font-size: 20px;
+    position: relative;
+}
+
+	
 	</style>
 </head>
 <body>
+<div class="bl">
     <div class="orange">
         <p class="name">A</p>
     </div>
@@ -69,6 +62,8 @@ p
     <div class="orange">
         <p class="name">E</p>
     </div>
+</div>
+<div class="bl">
     <div class="blue">
         <p class="name">F</p>
     </div>
@@ -84,6 +79,8 @@ p
     <div class="blue">
         <p class="name">J</p>
     </div>
+</div>
+<div class="bl">
     <div class="orange">
         <p class="name">K</p>
     </div>
@@ -99,6 +96,8 @@ p
     <div class="orange">
         <p class="name">O</p>
     </div>
+</div>
+<div class="bl">
     <div class="blue">
         <p class="name">P</p>
     </div>
@@ -114,6 +113,8 @@ p
     <div class="blue">
         <p class="name">T</p>
     </div>
+</div>
+<div class="bl">
     <div class="orange">
         <p class="name">U</p>
     </div>
@@ -129,6 +130,7 @@ p
     <div class="orange">
         <p class="name">Y</p>
     </div>
+</div>
 
 </body>
 </html>
